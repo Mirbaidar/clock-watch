@@ -1,0 +1,26 @@
+body{
+    background-image: url(maa.jpeg);
+    background-size: cover;
+}
+#container{
+    margin-top: 100px;
+    min-width: 800px;
+    position: relative;
+    
+}
+
+#clock{
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    background-color: black;
+    box-shadow: 4px 4px 4px 4px  solid rgb(181, 174, 174);
+    color: rgb(243, 248, 243);
+    min-width: 380px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
